@@ -1,0 +1,56 @@
+export type PerformanceSnapshotLineItem = {
+    Control_Account_Manager: string;
+    cpi_hgh_thlds_bchd: string | number;
+    cpi_low_thlds_bchd: string | number;
+    Perf_SS_P6_AC: string | number;
+    Perf_SS_ACWP: string | number;
+    Perf_SS_BAC: string | number;
+    Perf_SS_CPI: string | number;
+    Perf_SS_CV: string | number;
+    Perf_SS_EAC: string | number;
+    Perf_SS_ETC: string | number;
+    Perf_SS_EV: string | number;
+    PM_Adjusted_ETC: string | number;
+    Perf_SS_PV: string | number;
+    Perf_SS_SPI: string | number;
+    Perf_SS_SV: string | number;
+    Perf_SS_VAC: string | number;
+    cv_hgh_thlds_bchd: string | number;
+    cv_low_thlds_bchd: string | number;
+    D: string;
+    uuu_obs_fullname: string;
+    funding_type_p6udf: string;
+    GROUP_NAME: string;
+    pm_vac_hgh_thlds_bchd: string | number;
+    pm_vac_low_thlds_bchd: string | number;
+    pp_Cum_P6_AC: string | number;
+    pp_Cum_ACWP: string | number;
+    pp_cpi_hgh_thlds_bchd: string | number;
+    pp_cpi_low_thlds_bchd: string | number;
+    pp_cv_hgh_thlds_bchd: string | number;
+    pp_cv_low_thlds_bchd: string | number;
+    pp_Cum_EV: string | number;
+    pp_Cum_PV: string | number;
+    pp_spi_hgh_thlds_bchd: string | number;
+    pp_spi_low_thlds_bchd: string | number;
+    pp_sv_hgh_thlds_bchd: string | number;
+    pp_sv_low_thlds_bchd: string | number;
+    OBS_PUID: string;
+    short_desc: string;
+    spi_hgh_thlds_bchd: string | number;
+    spi_low_thlds_bchd: string | number;
+    sv_hgh_thlds_bchd: string | number;
+    sv_low_thlds_bchd: string | number;
+    TAB_NAME: string;
+    uuu_user_loginname;
+    vac_hgh_thlds_bchd: string | number;
+    vac_low_thlds_bchd: string | number;
+    uuu_cmwbs_code: string;
+    uuu_P6ETCComputeType: string;
+    uuu_cmwbs_name: string;
+    uuu_P6WBSPath: string;
+    wbs_type_p6udf: string;
+    PROJ_ID: string | number;
+}
+
+export type PerformanceSnapshot = PerformanceSnapshotLineItem[]

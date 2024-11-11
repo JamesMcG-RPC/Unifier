@@ -1,0 +1,8 @@
+unifier:
+  url: https://uni-demo03.rpc.uk.com
+  token: eyJ0eXAiOiJEQiJ9.eyJ1c2VybmFtZSI6IiQkaW50dXNlcjEifQ==.416B8871-E7F9-1B37-B71D-4A5FD54B002225E4AA87146361712E8F30A0A3F5079E
+
+settings:
+  frequency: 1000 #interval to check for new events in ms 
+  dbFile: "./unifier-db.json"
+  loggingLevel: info
