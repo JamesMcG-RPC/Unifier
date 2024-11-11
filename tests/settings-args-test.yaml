@@ -1,8 +1,0 @@
-unifier:
-  url: https://example.com
-  token: example
-
-settings:
-  frequency: 1000 #interval to check for new events in ms 
-  dbFile: "./unifier-db.json"
-  loggingLevel: debug
